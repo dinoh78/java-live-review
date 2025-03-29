@@ -10,6 +10,6 @@ public class ReportDownloader {
         System.out.println(Arrays.toString(allReports));
 
         //for(String report):allReports){
-        System.out.println("Downloading" + report + "...");
+        System.out.println("Downloading" + reports + "...");
     }
 }

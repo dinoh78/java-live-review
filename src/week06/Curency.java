@@ -1,4 +1,4 @@
-package week06.void_metod;
+package week06;
 
 /*
  Use the following sample rates for currency conversions

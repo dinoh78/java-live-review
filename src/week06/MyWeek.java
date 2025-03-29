@@ -2,11 +2,11 @@
 
 
 
-import week06.MyDay;
+package week06;
 
 public class MyWeek {
     public static void main(String[] args) {
-        MyDay.study("softskills", 2);
+        dailyRoutine("Monday");
     }
 
      /*
@@ -25,26 +25,17 @@ public class MyWeek {
         System.out.println("------" + day + "-------");
         switch (day) {
             case  "Monday","Tuesday","Wednesday" -> {
-                MyDay.makeCoffee();
-                MyDay.study("Java tasks", 1);
-                MyDay.exercise(20);
-                MyDay.study("Java modules", 2);
+
                 MyDay.nap(25);
             }
             case "Thursday","Friday","Saturday" -> {
-                MyDay.makeCoffee();
-                MyDay.exercise(30);
-                MyDay.study("SoftSkills", 2);
-                MyDay.makeCoffee();
+
                 MyDay.nap(10);
             }
             case "Sunday" -> {
-                MyDay.makeCoffee();
-                MyDay.exercise(15);
-                MyDay.study("Live review session", 4);
-                MyDay.makeCoffee();
+
                 MyDay.nap(32);
-                MyDay.study("Live review session", 4);
+
             }
             default -> System.out.println("Invalid day");
         }

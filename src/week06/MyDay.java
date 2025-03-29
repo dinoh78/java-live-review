@@ -1,4 +1,4 @@
-package week06.void_metod;
+package week06;
 
 public class MyDay {
     /*
